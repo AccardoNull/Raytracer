@@ -1,6 +1,17 @@
 # Raytracing
 A raytracer that generates objects and applies visual effects, sample input files included.
 
+Usage:
+In Command Promot, navigate to the root file.
+
+Compile: cl raytrace.cpp /FeRayTracer.exe
+
+Run:     RayTracer.exe input.txt        //Sample input file provided in folder, e.g. testAmbient.txt
+
+Output: e.g. testAmbient.ppm
+
+Dependencies: None (standard C++ STL only)
+
 Features:
 - Perspective camera with user-defined image plane (LEFT, RIGHT, BOTTOM, TOP, NEAR)
 - Resolution control via RES keyword
@@ -19,14 +30,3 @@ Features:
 - Custom scaling factors (kr patching) to reduce unrealistic reflection intensity
 - Efficient matrix inversion via adjoint and determinant functions
 - Prevents self-shadowing artifacts using ray origin offset (epsilon = 1e-4)
-
-Usage:
-In Command Promot, navigate to the root file.
-
-Compile: cl raytrace.cpp /FeRayTracer.exe
-
-Run:     RayTracer.exe input.txt        //Sample input file provided in folder, e.g. testAmbient.txt
-
-Output: e.g. testAmbient.ppm
-
-Dependencies: None (standard C++ STL only)
