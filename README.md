@@ -1,5 +1,5 @@
 # Raytracing
-A raytracer that generates objects and applies different effects, sample input files included.
+A raytracer that generates objects and applies visual effects, sample input files included.
 
 Features:
 - Perspective camera with user-defined image plane (LEFT, RIGHT, BOTTOM, TOP, NEAR)
