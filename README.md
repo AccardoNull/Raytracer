@@ -10,7 +10,7 @@ Example Usage:
 
 - Output:  testAmbient.ppm
 
-- Dependencies: None (standard C++ STL only)
+Dependencies: None (standard C++ STL only)
 
 Features:
 - Perspective camera with user-defined image plane (LEFT, RIGHT, BOTTOM, TOP, NEAR)
