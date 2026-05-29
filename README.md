@@ -2,11 +2,11 @@
 A raytracer that generates objects and applies visual effects, sample input files included.
 
 Usage:
-In Command Promot, navigate to the root file.
+- In Command Promot, navigate to the root file.
 
-Compile: cl raytrace.cpp /FeRayTracer.exe
+- Compile: cl raytrace.cpp /FeRayTracer.exe
 
-Run:     RayTracer.exe input.txt        //Sample input file provided in folder, e.g. testAmbient.txt
+- Run:     RayTracer.exe input.txt                                                     //Sample input file provided in folder, e.g. testAmbient.txt
 
 Output: e.g. testAmbient.ppm
 
