@@ -1,4 +1,4 @@
-# Raytracing
+# C++ Ray tracer
 A raytracer that generates objects and applies visual effects, sample input files included.
 
 Example Usage:
