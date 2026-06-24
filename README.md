@@ -2,7 +2,7 @@
 A raytracer that generates objects and applies visual effects, sample input files included.
 
 Example Usage:
-- In CMD/PowerShell, navigate to the directory where raytrace.cpp is.
+- In CMD, navigate to the location of raytrace.cpp.
 
 - Compile: cl raytrace.cpp /FeRayTracer.exe
 
