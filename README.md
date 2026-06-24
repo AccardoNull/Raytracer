@@ -1,7 +1,7 @@
 # C++ Ray tracer
 A raytracer that generates objects and applies visual effects, sample input files included.
 
-Example Usage:
+## Example Usage
 - In CMD, navigate to the location of raytrace.cpp.
 
 - Compile: cl raytrace.cpp /FeRayTracer.exe
@@ -12,7 +12,7 @@ Example Usage:
 
 Dependencies: None (standard C++ STL only)
 
-Features:
+## Features
 - Perspective camera with user-defined image plane (LEFT, RIGHT, BOTTOM, TOP, NEAR)
 - Resolution control via RES keyword
 - Full scene parsing from input file (supports SPHERE, LIGHT, AMBIENT, BACKGROUND, OUTPUT)
@@ -31,8 +31,17 @@ Features:
 - Efficient matrix inversion via adjoint and determinant functions
 - Prevents self-shadowing artifacts using ray origin offset (epsilon = 1e-4)
 
-Screenshots:
+## Screenshots
+### Parsing  
 ![screenshot1](Raytracing/testParsing.jpg)
+### Reflection  
 ![screenshot2](Raytracing/testReflection.jpg)
+### Illum  
 ![screenshot3](Raytracing/testIllum.jpg)
+### Specular  
 ![screenshot4](Raytracing/testSpecular.jpg)
+
+## Tech Stack
+- C++
+- STL
+- Visual Studio Code
