@@ -32,14 +32,16 @@ Dependencies: None (standard C++ STL only)
 - Prevents self-shadowing artifacts using ray origin offset (epsilon = 1e-4)
 
 ## Screenshots
+### Diffuse  
+![screenshot1](Raytracing/testDiffuse.jpg)
 ### Parsing  
-![screenshot1](Raytracing/testParsing.jpg)
+![screenshot2](Raytracing/testParsing.jpg)
 ### Reflection  
-![screenshot2](Raytracing/testReflection.jpg)
+![screenshot3](Raytracing/testReflection.jpg)
 ### Illum  
-![screenshot3](Raytracing/testIllum.jpg)
+![screenshot4](Raytracing/testIllum.jpg)
 ### Specular  
-![screenshot4](Raytracing/testSpecular.jpg)
+![screenshot5](Raytracing/testSpecular.jpg)
 
 ## Tech Stack
 - C++
