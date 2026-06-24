@@ -30,3 +30,9 @@ Features:
 - Custom scaling factors (kr patching) to reduce unrealistic reflection intensity
 - Efficient matrix inversion via adjoint and determinant functions
 - Prevents self-shadowing artifacts using ray origin offset (epsilon = 1e-4)
+
+Screenshots:
+![screenshot1](Raytracing/testParsing.jpg)
+![screenshot2](Raytracing/testReflection.jpg)
+![screenshot3](Raytracing/testIllum.jpg)
+![screenshot4](Raytracing/testSpecular.jpg)
