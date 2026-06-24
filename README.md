@@ -1,5 +1,5 @@
 # C++ Ray tracer
-A raytracer that generates objects and applies visual effects, sample input files included.
+A custom ray tracer built with C++ and Visual Studio Code that parses scene description files and render 3D objects using STL, affine matrices, and matrix inversion to support ellipsoid transformations, with various rendering features and visual effects including ambient/diffuse lighting, shadows, reflections, near-plane clipping, anti-artifact handling, and recursive ray calculations to enable generation of scenes with complex visual behaviors.
 
 ## Example Usage
 - In CMD, navigate to the location of raytrace.cpp.
